@@ -158,7 +158,7 @@
         $('.js_submit').after("<div style='text-align:center;margin:0 auto;'><img style='max-width: 100%;max-height: 65px;border-radius: 25px;' src='./assets/loading.gif'></div>");
         var name = form.find('input[name="name"]');
         var phone = form.find('input[name="phone"]');
-        var url = 'https://api.rentracksw.com/lead/create?site_id=2827&advertiser_id=181&product_id=70696&token=4P3B3KRNjA1YWM3YTgwNzk1MmRiNTQyNjhhMjRhMDM1Mzkx' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
+        var url = 'https://api.rentracksw.com/lead/create?site_id=8936&advertiser_id=181&product_id=70696&token=qhy1b6LMDE5YmM1NjY3N2ZlOGM1YjA2NzBiNzY5ZDNhMjNm' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
         const toSend = {
             name: `${name.val()}`,
             phone: `${phone.val()}`
